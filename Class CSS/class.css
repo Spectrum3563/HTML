@@ -1,0 +1,22 @@
+.section {
+    text-align: center;
+}
+
+.sub_section {
+    padding-left: 5%;
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+    word-spacing: 2px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+h3 {
+    text-align: left;
+    word-spacing: 2px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
