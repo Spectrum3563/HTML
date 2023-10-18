@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(255, 255, 240);
+}
+
+.emaileditor {
+    background-color: #FFFFDD;
+}
+
+#main {
+    padding: 10px;
+    width: 400px;
+    background-color: #DDFFEE;
+    margin: 0px auto;
+}
+
+.group label {
+    width: 20%;
+    float: left;
+    padding-right: 6px;
+    text-align: right;
+}
+
+#help {
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    top: 10px;
+    display: none;
+    border: solid 2px #E4E7E7;
+    color: #303030;
+}
+
+.close {
+    text-align: right;
+    color: blue;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: circle;
+    list-style-position: inside;
+
+}

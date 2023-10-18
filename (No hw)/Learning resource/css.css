@@ -1,0 +1,45 @@
+a {
+    background-color: gray;
+    color: rgb(0, 56, 56);
+    padding: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(0, 53, 127);
+    color: rgb(178, 255, 131);
+}
+
+a:active {
+    background-color: navy;
+    color: aqua;
+}
+/*
+a:before {
+    content: '|';
+}
+
+a:after {
+    content: '|';
+}
+*/
+.menu {
+    background-color: rgb(110, 110, 110);
+    list-style-type: none;
+    color: rgb(237, 255, 223);
+    padding-left: 0px;
+    margin: 0px;
+    display: flex;
+}
+
+ul.menu li {
+    border-bottom: solid 2px rgb(186, 255, 250);
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+ul.menu li:hover {
+    background-color: darkcyan;
+    color: blanchedalmond;
+}

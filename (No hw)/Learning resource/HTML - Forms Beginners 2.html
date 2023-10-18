@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form HTML</title>
+        <meta charset="utf-8">
+        <style type="text/css">
+
+            body, html {
+                height: 100%;
+            }
+
+            .bg {
+                /* The image used */
+                background-image: url("background.jpg");
+
+                /* Full height */
+                height: 105%;
+
+                /* Center and scale the image nicely */
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .validate {
+                color: red;
+
+            }
+
+            .content {
+                width: 650px;
+                height: auto;
+                background-color: #faedca;
+                padding: 10px;
+                margin: 0px auto;
+            }
+
+            .content input, .content textarea, .content button {
+                width: 100%;
+                font-size: 19px;
+            }
+
+            .content ::placeholder {
+                font-size: 19px;
+                color: gainsboro;
+            }
+
+            .content button {
+                background-color: rgb(62, 62, 62);
+                color: rgb(185, 221, 255);
+                border: none;
+                padding: 16px;
+                cursor: pointer;
+            }
+
+            .content button:hover {
+                background-color: black;
+                color: azure;
+            }
+
+            h2 {
+                text-align: center;
+                color: blanchedalmond;
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <div class="bg">
+            <h2>Contact us</h2>
+            
+            <div class="content">
+
+                <label>Fullname: <label class="validate">*</label></label>
+                <input type="text" name="fullname" placeholder="Enter Fullname...">
+                <br/>
+                <label>Phone number: <label class="validate">*</label></label>
+                <input type="tel" name="phonenumber" placeholder="Enter phonenumber...">
+                <br/>
+                <label>Email: <label class="validate">*</label></label>
+                <input type="email" name="email" placeholder=name@domain.com>
+                <br/>
+                <label>Message: <label class="validate">*</label></label>
+                <textarea rows="20" name="message" placeholder="Feel free to ask for support"></textarea>
+                <br/>
+                <a href="https://discord.com/"><button title="No related subject">Discord</button></a>
+
+            </div>
+        </div>
+    </body>
+</html>
