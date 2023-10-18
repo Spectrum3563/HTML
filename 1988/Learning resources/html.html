@@ -11,26 +11,28 @@
     <body>
         <div id="main">
             <h2>Compose Email message</h2>
-            <div class="group">
-                <label>To: </label>
-                <input type="email" name="to" class="emaileditor">
-                <br>
-                <label>From: </label>
-                <input type="email" name="from" class="emaileditor">
-                <br>
-                <label>Cc: </label>
-                <input type="text" name="cc" class="emaileditor">
-                <br>
-                <label>Subj: </label>
-                <input type="text" name="subj" class="emaileditor">
-                <br>
-                <label>Message: </label>
-                <textarea row="5" class="emaileditor"></textarea>
-                <br>
-                <label>&nbsp;</label>
-                <button>Send</button>
-                <button>Cancel</button>
-            </div>
+            <form action="sub.html" method="get">
+                <div class="group">
+                    <label>To: </label>
+                    <input type="email" name="to" class="emaileditor">
+                    <br>
+                    <label>From: </label>
+                    <input type="email" name="from" class="emaileditor">
+                    <br>
+                    <label>Cc: </label>
+                    <input type="text" name="cc" class="emaileditor">
+                    <br>
+                    <label>Subj: </label>
+                    <input type="text" name="subj" class="emaileditor">
+                    <br>
+                    <label>Message: </label>
+                    <textarea row="5" class="emaileditor"></textarea>
+                    <br>
+                    <label>&nbsp;</label>
+                    <button type="submit">Send</button>
+                    <button type="reset">Cancel</button>
+                </div>
+            </form>
         </div>
     </body>
 </html>
