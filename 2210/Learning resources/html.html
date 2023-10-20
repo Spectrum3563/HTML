@@ -14,16 +14,16 @@
             <form action="sub.html" method="get">
                 <div class="group">
                     <label>To: </label>
-                    <input type="email" name="to" class="emaileditor">
+                    <input required type="email" name="to" class="emaileditor">
                     <br>
                     <label>From: </label>
-                    <input type="email" name="from" class="emaileditor">
+                    <input required type="email" name="from" class="emaileditor">
                     <br>
                     <label>Cc: </label>
-                    <input type="text" name="cc" class="emaileditor">
+                    <input required type="text" name="cc" class="emaileditor">
                     <br>
-                    <label>Subj: </label>
-                    <input type="text" name="subj" class="emaileditor">
+                    <label>Subj: </label> pattern [a-zA-Z0-9]
+                    <input required type="text" name="subj" class="emaileditor">
                     <br>
                     <label>Message: </label>
                     <textarea row="5" class="emaileditor"></textarea>
