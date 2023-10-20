@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'Ink Free';
+    src: url('InkFree.eot');
+    src: url('InkFree.eot?#iefix') format('embedded-opentype'),
+         url('InkFree.woff2') format('woff2'),
+         url('InkFree.woff') format('woff'),
+         url('InkFree.ttf')  format('truetype'),
+         url('InkFree.svg#svgFontName') format('svg');
+}
+
+body {
+    margin: 15px;
+    padding: 0px;
+}
+
+.header .banner {
+    width: 100%;
+    height: 125px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.banner {
+    background-image: linear-gradient(to right, rgb(221, 255, 253) , rgb(123, 220, 255));
+    background-size: 100%;
+    color: rgb(0, 32, 191);
+}
+
+.banner h1 {
+    margin: 0px;
+    padding: 15px;
+}
+
+.banner h3 {
+    margin: 0px;
+    padding: 0px;
+    padding-left: 15px;
+    font-family: 'Ink Free', Fallback, sans-serif;
+}
+
+.header .menu {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 90px;
+}
+
+.header .menu ul, .header .menu ul form  {
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+    padding-left: 0px;
+    margin: 0px;
+    display: flex;
+}
+
+.header .menu ul li, .header .menu ul form, .header .menu ul .fitter {
+    padding: 10px 40px;
+    margin: 1px;
+    background-color: rgb(21, 255, 0);
+    border-bottom: solid 2px rgb(186, 255, 250);
+    cursor: pointer;
+}
+
+.header .menu ul li:hover, .header .menu ul .menu-item:hover {
+    background-color: rgb(30, 221, 12);
+    color: rgb(246, 255, 0);
+    border-bottom: solid 2px yellow;
+}
+
+.search-button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-button:hover {
+    background-color: #45a049;
+  }
+
+.col-7 {
+    width: calc(7/12 * 100%);
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+
+h2 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu-item {
+    height: 30px;
+    line-height: 30px;
+}
+
+.search-bar input {
+    height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .menu-item {
+        height: 20px;
+        line-height: 20px;
+    }
+}
+
+.col-3-right {
+    width: calc(3/12 * 100%);
+    position: absolute;
+    right: 15px;
+}
+
+.lists {
+    width: 65%;
+}
+
+.lists .col-title {
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: white;
+    background-color: #4CAF50;
+    border: transparent;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.lists ul {
+    list-style-type: none;
+
+}
+
+.lists ul li {
+    padding: 8px 4px;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    color: black;
+    border-bottom: solid 2px gray;
+}
